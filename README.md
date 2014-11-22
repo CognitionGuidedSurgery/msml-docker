@@ -9,6 +9,10 @@ The container will contain following software:
 * From source:
   * [MSML](http://msml.org) from sources
   * [Sofa Framework](http://sofa-framework.org) from sources
+  * Elasticity (Hiflow3)
+  * CodeAster
+  * FeBIO
+  * 
 * From repository:
   * VTK6.0 
   * Boost
