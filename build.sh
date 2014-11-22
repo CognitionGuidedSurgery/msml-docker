@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 BASEDIR=/home/
 function clone_and_compile {
