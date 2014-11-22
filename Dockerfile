@@ -1,6 +1,7 @@
+FROM ubuntu:14.04
+
 MAINTAINER Alexander Weigl <Alexander.Weigl@student.kit.edu>
 
-FROM ubuntu:14.04
 WORKDIR /home
 
 RUN apt-get update
