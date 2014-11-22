@@ -1,7 +1,7 @@
 #!/bin/sh
 
 BASEDIR=/home/
-function clone_and_compile() {
+function clone_and_compile {
   cd $BASEDIR      # change into basedir 
   git clone $1 $2  # checkout repository
   cd $2            # go into working copy
