@@ -12,9 +12,6 @@ RUN apt-get install -y python-virtualenv python-virtualenv python-lxml       \
                            tetgen libtet1.5-dev libtet1.5 git swig           \
                            python-dev
 
-ADD build_msml.sh  build_sofa.sh /home/
+ADD build.sh /home/
 
-
-# build msml
-
-RUN /home/build_msml.sh
+RUN chmod 755 /home/build.sh && /home/build.sh
