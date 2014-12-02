@@ -13,5 +13,5 @@ RUN git clone http://github.com/CognitionGuidedSurgery/restflow.git
 RUN pip install -r restflow/requirements.txt 
 RUN pip install gunicorn
 
-RUN cd restflow && bash share/run_gunicorn.sh
+CMD cd restflow && bash share/run_gunicorn.sh
 
