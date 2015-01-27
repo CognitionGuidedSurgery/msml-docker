@@ -11,4 +11,4 @@ MAINTAINER Alexander Weigl <Alexander.Weigl@student.kit.edu>
 
 RUN pip install Flask gunicorn
 
-CMD "gunicorn"
+ENTRYPOINT [ "gunicorn" "-c" "/etc/gunicorn.cfg" ]
