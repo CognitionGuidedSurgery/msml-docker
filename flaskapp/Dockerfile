@@ -9,4 +9,6 @@
 FROM wadoon/python
 MAINTAINER Alexander Weigl <Alexander.Weigl@student.kit.edu>
 
-RUN pip install Flask
+RUN pip install Flask gunicorn
+
+CMD "gunicorn"
